@@ -1,0 +1,111 @@
+ul {
+  list-style-type: none !important;
+  margin: unset !important;
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/fonts/HelveticaNeueCyr-Roman.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  font-style: normal;
+  font-weight: 500;
+  src: url(/fonts/HelveticaNeueCyr-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  font-style: normal;
+  font-weight: 700;
+  src: url(/fonts/HelveticaNeueCyr-Bold.ttf) format("truetype");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "HelveticaNeue";
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 50px;
+  border: 4px solid transparent;
+  background-clip: padding-box;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ccc;
+  border-color: #fff;
+}
+
+::-moz-selection {
+  color: #121212;
+  background: #aaa;
+}
+
+::selection {
+  color: #121212;
+  background: #aaa;
+}
+
+/* Links  */
+a:focus {
+  box-shadow: unset !important;
+}
+
+a:hover {
+  text-decoration: unset !important;
+}
+
+/* SVGs */
+svg:focus,
+span:focus-visible {
+  outline: none;
+}
+
+/* Ant Design Icons  */
+.icon {
+  color: #454545;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 991px) {
+  .icon {
+    font-size: 14px;
+  }
+}
+
+/* Hero banner title  */
+.hero-title {
+  -webkit-text-stroke: 1px #ccc;
+  -webkit-text-fill-color: transparent;
+  cursor: default;
+}
+
+.hero-title:hover {
+  -webkit-text-fill-color: #ccc;
+}
+
+/* Chakra FormControl  */
+.chakra-form-control {
+  margin-top: unset !important;
+}
