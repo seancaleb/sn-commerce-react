@@ -5,7 +5,7 @@ const PreLoader = () => {
   return (
     <Flex {...styles.container}>
       <MotionText {...animations.text} {...styles.text}>
-        SNCLB
+        SNCMRCE
       </MotionText>
     </Flex>
   );
