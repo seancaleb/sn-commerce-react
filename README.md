@@ -22,6 +22,16 @@ A demo ecommerce web application that integrates ([Commerce JS](https://commerce
 - Login/Logout
 - Checkout (to be integrated soon)
 
+## Images
+![Home snapshot](https://raw.githubusercontent.com/seancaleb/sn-commerce-react/main/images/home.png)
+![Products snapshot](https://raw.githubusercontent.com/seancaleb/sn-commerce-react/main/images/products.png)
+![Single Product snapshot](https://raw.githubusercontent.com/seancaleb/sn-commerce-react/main/images/product-item.png)
+![Cart snapshot](https://raw.githubusercontent.com/seancaleb/sn-commerce-react/main/images/cart.png)
+![Favorites snapshot](https://raw.githubusercontent.com/seancaleb/sn-commerce-react/main/images/favorites.png)
+![Login snapshot](https://raw.githubusercontent.com/seancaleb/sn-commerce-react/main/images/login.png)
+![Register snapshot](https://raw.githubusercontent.com/seancaleb/sn-commerce-react/main/images/register.png)
+![Home authenticated snapshot](https://github.com/seancaleb/sn-commerce-react/blob/main/images/home-authenticated.png)
+
 ## Installation
 
 ### 1. Clone this repository.
