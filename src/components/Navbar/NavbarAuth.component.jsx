@@ -45,7 +45,7 @@ const NavbarAuth = () => {
 
         {/* Logo  */}
         <Heading onClick={handleClick} {...globals.site__logo}>
-          SNCLB
+          SNCMRCE
         </Heading>
 
         {/* Secondary Menu  */}

@@ -12,7 +12,7 @@ const RegisterPage = () => {
         <Box mb="40px">
           <Text {...styles.subheading}>Create a new account</Text>
           <Heading {...globals.site__logo} cursor="default" textAlign="left">
-            SNCLB
+            SNCMRCE
           </Heading>
         </Box>
 

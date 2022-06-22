@@ -105,7 +105,7 @@ const RegisterForm = () => {
       <hr />
 
       <Text {...styles.subheading} textAlign="center">
-        &copy; Copyright — 2022 SNCLB
+        &copy; Copyright — 2022 SNCMRCE
       </Text>
     </Form>
   );
