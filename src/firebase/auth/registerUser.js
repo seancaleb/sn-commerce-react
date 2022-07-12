@@ -1,4 +1,4 @@
-import { createUserWithEmailAndPassword, signOut } from "firebase/auth";
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "firebase/auth";
 import { auth } from "../firebase.config";
 import { addUser } from "../firestore/user";
 import { EMAIL_EXISTS, TOO_MANY_REQUESTS } from "./errorCodes";
@@ -9,6 +9,7 @@ const registerUser = async ({ email, password, firstName, lastName, cartId, setI
 
     const userCredential = await createUserWithEmailAndPassword(auth, email, password);
     await signOut(auth);
+    await signInWithEmailAndPassword(auth, email, password);
 
     const { uid, email: userEmail } = userCredential.user;
 
