@@ -14,8 +14,8 @@ export default {
   col__two: {
     flexDir: "column",
     p: {
-      base: "30px",
-      sm: "60px",
+      base: "8%",
+      lg: "60px",
     },
     maxW: {
       base: "100%",
