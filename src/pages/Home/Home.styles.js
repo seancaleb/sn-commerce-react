@@ -1,14 +1,17 @@
 export default {
   hero__section: {
-    minH: "650px",
+    minH: {
+      base: "450px",
+      sm: "650px",
+    },
   },
   hero__container: {
     colSpan: 12,
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    bgImage: "/assets/hero-banner.png",
-    bgPos: "65% 25%",
+    bgImage: "/assets/hero-banner.webp",
+    bgPos: "center 10%",
     bgSize: "cover",
     bgRepeat: "no-repeat",
     mt: "80px",

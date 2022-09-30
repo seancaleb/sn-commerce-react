@@ -6,7 +6,7 @@ export default {
   col__one: {
     minH: "100vh",
     flex: 1,
-    bgImage: "/assets/register.png",
+    bgImage: "/assets/register.webp",
     bgPos: "center top",
     bgSize: "cover",
     bgRepeat: "no-repeat",
