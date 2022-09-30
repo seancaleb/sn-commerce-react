@@ -23,3 +23,4 @@ tasks.txt
 *.njsproj
 *.sln
 *.sw?
+yarn.lock
